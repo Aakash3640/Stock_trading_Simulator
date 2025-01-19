@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Trading Simulation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h2>Stock Trading Simulation</h2>
+
+<div id="main">
+    <h3>Buy or Sell Stocks</h3>
+
+    <label for="stockSymbol">Stock Symbol:</label>
+    <input type="text" id="stockSymbol" name="stockSymbol" required><br><br>
+
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" name="quantity" required><br><br>
+
+    <label for="price">Price:</label>
+    <input type="number" id="price" name="price" required><br><br>
+
+    <button id="buyButton">Buy</button>
+    <button id="sellButton">Sell</button>
+</div>
+
+<h3>All Stocks</h3>
+<ul id="stocks"></ul>
+
+<script src="scripts.js"></script>
+</body>
+</html>
